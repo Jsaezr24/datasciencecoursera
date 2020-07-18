@@ -2,7 +2,9 @@
 title: "HelloWorld"
 author: "Jorge Saez R."
 date: "18/07/2020"
-output: html_document
+output: 
+  html_document: 
+    toc: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -12,7 +14,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ## This is a reduction file
 
 https://github.com/Jsaezr24/datasciencecoursera/blob/master/HelloWorld.md
-https://github.com/Jsaezr24/datasciencecoursera
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
